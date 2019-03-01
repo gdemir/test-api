@@ -6,7 +6,7 @@ use warnings;
 use LWP::UserAgent;
 use CGI;
 
-my $url = 'http://www.neflan.com/api/v1/index';
+my $url = 'http://www.*.com/api/v1/index';
 
 my $ua       = LWP::UserAgent->new();
 my $response = $ua->get($url);
